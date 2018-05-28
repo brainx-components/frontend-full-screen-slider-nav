@@ -96,21 +96,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.body {
+    background: lightskyblue !important;
+}
+.navbar {
+    background-color:  transparent;
+    border: 0;    
+    transition: all 0.5s;
+}
+.navbar:hover {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border: 0;
+}
+.screen-size {
+    height: 100vh !important;
+    width: 100vw !important;
+}
 
 
 /* ==========================================================================
