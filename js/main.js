@@ -22,3 +22,10 @@ function adjustBack(scroll_start, offset, scroll_start) {
         $('.navbar').css('background', 'transparent');
     }
 }
+
+// Navbar close by clicking outside
+$(document).click(function (e) {
+    if (!$(e.target).is('.navbar-nav')) {
+        $('.collapse').collapse('hide');
+    }
+});
